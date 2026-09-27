@@ -1,0 +1,27 @@
+--cpu Cortex-M3
+"mylearn2\startup_stm32f103xb.o"
+"mylearn2\main.o"
+"mylearn2\gpio.o"
+"mylearn2\adc.o"
+"mylearn2\usart.o"
+"mylearn2\stm32f1xx_it.o"
+"mylearn2\stm32f1xx_hal_msp.o"
+"mylearn2\stm32f1xx_hal_gpio_ex.o"
+"mylearn2\stm32f1xx_hal_adc.o"
+"mylearn2\stm32f1xx_hal_adc_ex.o"
+"mylearn2\stm32f1xx_hal.o"
+"mylearn2\stm32f1xx_hal_rcc.o"
+"mylearn2\stm32f1xx_hal_rcc_ex.o"
+"mylearn2\stm32f1xx_hal_gpio.o"
+"mylearn2\stm32f1xx_hal_dma.o"
+"mylearn2\stm32f1xx_hal_cortex.o"
+"mylearn2\stm32f1xx_hal_pwr.o"
+"mylearn2\stm32f1xx_hal_flash.o"
+"mylearn2\stm32f1xx_hal_flash_ex.o"
+"mylearn2\stm32f1xx_hal_exti.o"
+"mylearn2\stm32f1xx_hal_uart.o"
+"mylearn2\system_stm32f1xx.o"
+--library_type=microlib --strict --scatter "mylearn2\mylearn2.sct"
+--summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "mylearn2.map" -o mylearn2\mylearn2.axf

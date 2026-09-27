@@ -1,0 +1,29 @@
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+mylearn2\stm32f1xx_hal_dma.o: ../Core/Inc/stm32f1xx_hal_conf.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Include/core_cm3.h
+mylearn2\stm32f1xx_hal_dma.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stdint.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Include/cmsis_version.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Include/cmsis_compiler.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h
+mylearn2\stm32f1xx_hal_dma.o: D:\Program Files (x86)\ARM\ARMCC\Bin\..\include\stddef.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc_ex.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h
+mylearn2\stm32f1xx_hal_dma.o: ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h

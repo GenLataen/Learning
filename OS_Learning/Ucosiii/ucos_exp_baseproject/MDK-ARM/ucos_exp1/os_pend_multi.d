@@ -1,0 +1,15 @@
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uCOS-III\Source\os_pend_multi.c
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uCOS-III\Source\os.h
+ucos_exp1\os_pend_multi.o: ..\Core\Src\OS\os_cfg.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-CPU\cpu_def.h
+ucos_exp1\os_pend_multi.o: ..\Core\Src\OS\cpu_cfg.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-CPU\cpu_core.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-LIB\lib_def.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-LIB\lib_mem.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-CPU\cpu_core.h
+ucos_exp1\os_pend_multi.o: ..\Core\Src\OS\lib_cfg.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-LIB\lib_str.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uC-LIB\lib_ascii.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uCOS-III\Source\os_type.h
+ucos_exp1\os_pend_multi.o: ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h

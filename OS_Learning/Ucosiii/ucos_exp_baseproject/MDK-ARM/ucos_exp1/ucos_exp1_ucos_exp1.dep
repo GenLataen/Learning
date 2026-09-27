@@ -1,0 +1,1010 @@
+Dependencies for Project 'ucos_exp1', Target 'ucos_exp1': (DO NOT MODIFY !)
+F (startup_stm32f103xb.s)(0x684E3218)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list startup_stm32f103xb.lst --xref -o ucos_exp1\startup_stm32f103xb.o --depend ucos_exp1\startup_stm32f103xb.d)
+F (../Core/Src/main.c)(0x687FB362)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\main.o --omf_browse ucos_exp1\main.crf --depend ucos_exp1\main.d)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+I (../Core/Inc/gpio.h)(0x68312F1B)
+I (../Core/Inc/usart.h)(0x68329B12)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+I (D:\Program Files (x86)\ARM\ARMCC\include\string.h)(0x588B8344)
+I (..\Core\Src\OS\includes.h)(0x683297E2)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\uCOSIII\uC-LIB\lib_math.h)(0x68312F3D)
+I (..\Core\Src\OS\bsp.h)(0x68312F3F)
+I (..\Core\Src\OS\app_cfg.h)(0x68312F3F)
+I (..\Core\Src\OS\app.h)(0x68312F3F)
+F (../Core/Src/gpio.c)(0x6843A437)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\gpio.o --omf_browse ucos_exp1\gpio.crf --depend ucos_exp1\gpio.d)
+I (../Core/Inc/gpio.h)(0x68312F1B)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Core/Src/usart.c)(0x6832BB78)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\usart.o --omf_browse ucos_exp1\usart.crf --depend ucos_exp1\usart.d)
+I (../Core/Inc/usart.h)(0x68329B12)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+I (D:\Program Files (x86)\ARM\ARMCC\include\string.h)(0x588B8344)
+F (../Core/Src/stm32f1xx_it.c)(0x684E6503)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_it.o --omf_browse ucos_exp1\stm32f1xx_it.crf --depend ucos_exp1\stm32f1xx_it.d)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+I (../Core/Inc/stm32f1xx_it.h)(0x68312F1C)
+F (../Core/Src/stm32f1xx_hal_msp.c)(0x68312F1D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_msp.o --omf_browse ucos_exp1\stm32f1xx_hal_msp.crf --depend ucos_exp1\stm32f1xx_hal_msp.d)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (..\Core\Src\OS\app.c)(0x68312F3E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\app.o --omf_browse ucos_exp1\app.crf --depend ucos_exp1\app.d)
+I (..\Core\Src\OS\includes.h)(0x683297E2)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_math.h)(0x68312F3D)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\Core\Src\OS\bsp.h)(0x68312F3F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+I (../Core/Inc/gpio.h)(0x68312F1B)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (..\Core\Src\OS\app_cfg.h)(0x68312F3F)
+I (..\Core\Src\OS\app.h)(0x68312F3F)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio_ex.c)(0x68312F4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_gpio_ex.o --omf_browse ucos_exp1\stm32f1xx_hal_gpio_ex.crf --depend ucos_exp1\stm32f1xx_hal_gpio_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim.c)(0x68312F50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_tim.o --omf_browse ucos_exp1\stm32f1xx_hal_tim.crf --depend ucos_exp1\stm32f1xx_hal_tim.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_tim_ex.c)(0x68312F50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_tim_ex.o --omf_browse ucos_exp1\stm32f1xx_hal_tim_ex.crf --depend ucos_exp1\stm32f1xx_hal_tim_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_uart.c)(0x68312F50)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_uart.o --omf_browse ucos_exp1\stm32f1xx_hal_uart.crf --depend ucos_exp1\stm32f1xx_hal_uart.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal.c)(0x68312F4A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal.o --omf_browse ucos_exp1\stm32f1xx_hal.crf --depend ucos_exp1\stm32f1xx_hal.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc.c)(0x68312F4E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_rcc.o --omf_browse ucos_exp1\stm32f1xx_hal_rcc.crf --depend ucos_exp1\stm32f1xx_hal_rcc.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_rcc_ex.c)(0x68312F4E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_rcc_ex.o --omf_browse ucos_exp1\stm32f1xx_hal_rcc_ex.crf --depend ucos_exp1\stm32f1xx_hal_rcc_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_gpio.c)(0x68312F4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_gpio.o --omf_browse ucos_exp1\stm32f1xx_hal_gpio.crf --depend ucos_exp1\stm32f1xx_hal_gpio.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_dma.c)(0x68312F4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_dma.o --omf_browse ucos_exp1\stm32f1xx_hal_dma.crf --depend ucos_exp1\stm32f1xx_hal_dma.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_cortex.c)(0x68312F4B)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_cortex.o --omf_browse ucos_exp1\stm32f1xx_hal_cortex.crf --depend ucos_exp1\stm32f1xx_hal_cortex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_pwr.c)(0x68312F4E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_pwr.o --omf_browse ucos_exp1\stm32f1xx_hal_pwr.crf --depend ucos_exp1\stm32f1xx_hal_pwr.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash.c)(0x68312F4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_flash.o --omf_browse ucos_exp1\stm32f1xx_hal_flash.crf --depend ucos_exp1\stm32f1xx_hal_flash.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_flash_ex.c)(0x68312F4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_flash_ex.o --omf_browse ucos_exp1\stm32f1xx_hal_flash_ex.crf --depend ucos_exp1\stm32f1xx_hal_flash_ex.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Drivers/STM32F1xx_HAL_Driver/Src/stm32f1xx_hal_exti.c)(0x68312F4C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\stm32f1xx_hal_exti.o --omf_browse ucos_exp1\stm32f1xx_hal_exti.crf --depend ucos_exp1\stm32f1xx_hal_exti.d)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (../Core/Src/system_stm32f1xx.c)(0x68312F1D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\system_stm32f1xx.o --omf_browse ucos_exp1\system_stm32f1xx.crf --depend ucos_exp1\system_stm32f1xx.d)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+F (..\Core\Src\OS\bsp.c)(0x68312F3F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\bsp.o --omf_browse ucos_exp1\bsp.crf --depend ucos_exp1\bsp.d)
+I (..\Core\Src\OS\includes.h)(0x683297E2)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdarg.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdio.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdlib.h)(0x588B8344)
+I (D:\Program Files (x86)\ARM\ARMCC\include\math.h)(0x588B8344)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_math.h)(0x68312F3D)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\Core\Src\OS\bsp.h)(0x68312F3F)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h)(0x68312F43)
+I (../Core/Inc/stm32f1xx_hal_conf.h)(0x68312F1C)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_def.h)(0x68312F44)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f1xx.h)(0x68313027)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xb.h)(0x68313025)
+I (../Drivers/CMSIS/Include/core_cm3.h)(0x68312F41)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stdint.h)(0x588B8344)
+I (../Drivers/CMSIS/Include/cmsis_version.h)(0x68312F41)
+I (../Drivers/CMSIS/Include/cmsis_compiler.h)(0x68312F40)
+I (../Drivers/CMSIS/Include/cmsis_armcc.h)(0x68312F40)
+I (../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h)(0x68313027)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy/stm32_hal_legacy.h)(0x68312FC7)
+I (D:\Program Files (x86)\ARM\ARMCC\include\stddef.h)(0x588B8344)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_rcc_ex.h)(0x68312F46)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_gpio_ex.h)(0x68312F45)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_exti.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_dma_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_cortex.h)(0x68312F43)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_flash_ex.h)(0x68312F44)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_pwr.h)(0x68312F55)
+I (../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_uart.h)(0x68312F47)
+I (../Core/Inc/gpio.h)(0x68312F1B)
+I (../Core/Inc/main.h)(0x68312F1C)
+I (..\Core\Src\OS\app_cfg.h)(0x68312F3F)
+I (..\Core\Src\OS\app.h)(0x68312F3F)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uC-CPU\cpu_core.c)(0x68312F3C)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\cpu_core.o --omf_browse ucos_exp1\cpu_core.crf --depend ucos_exp1\cpu_core.d)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+F (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu_a.asm)(0x68312FCD)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list cpu_a.lst --xref -o ucos_exp1\cpu_a.o --depend ucos_exp1\cpu_a.d)
+F (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu_c.c)(0x68312FCE)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\cpu_c.o --omf_browse ucos_exp1\cpu_c.crf --depend ucos_exp1\cpu_c.d)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+F (..\uCOSIII\uC-LIB\lib_ascii.c)(0x68312F3D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\lib_ascii.o --omf_browse ucos_exp1\lib_ascii.crf --depend ucos_exp1\lib_ascii.d)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+F (..\uCOSIII\uC-LIB\lib_math.c)(0x68312F3D)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\lib_math.o --omf_browse ucos_exp1\lib_math.crf --depend ucos_exp1\lib_math.d)
+I (..\uCOSIII\uC-LIB\lib_math.h)(0x68312F3D)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+F (..\uCOSIII\uC-LIB\lib_mem.c)(0x68312F3E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\lib_mem.o --omf_browse ucos_exp1\lib_mem.crf --depend ucos_exp1\lib_mem.d)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+F (..\uCOSIII\uC-LIB\lib_str.c)(0x68312F3E)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\lib_str.o --omf_browse ucos_exp1\lib_str.crf --depend ucos_exp1\lib_str.d)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+F (..\uCOSIII\uC-LIB\Ports\ARM-Cortex-M3\RealView\lib_mem_a.asm)(0x68313021)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list lib_mem_a.lst --xref -o ucos_exp1\lib_mem_a.o --depend ucos_exp1\lib_mem_a.d)
+F (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_a.s)(0x68313047)(--cpu Cortex-M3 -g --apcs=interwork --pd "__MICROLIB SETA 1"-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"--pd "__UVISION_VERSION SETA 524" --pd "_RTE_ SETA 1" --pd "STM32F10X_MD SETA 1"--list os_cpu_a.lst --xref -o ucos_exp1\os_cpu_a.o --depend ucos_exp1\os_cpu_a.d)
+F (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu_c.c)(0x68313047)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_cpu_c.o --omf_browse ucos_exp1\os_cpu_c.crf --depend ucos_exp1\os_cpu_c.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_cfg_app.c)(0x68312F53)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_cfg_app.o --omf_browse ucos_exp1\os_cfg_app.crf --depend ucos_exp1\os_cfg_app.d)
+I (..\Core\Src\OS\os_cfg_app.h)(0x68312F40)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_core.c)(0x68312F53)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_core.o --omf_browse ucos_exp1\os_core.crf --depend ucos_exp1\os_core.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_dbg.c)(0x68312F54)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_dbg.o --omf_browse ucos_exp1\os_dbg.crf --depend ucos_exp1\os_dbg.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_flag.c)(0x68312F54)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_flag.o --omf_browse ucos_exp1\os_flag.crf --depend ucos_exp1\os_flag.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_int.c)(0x68312F54)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_int.o --omf_browse ucos_exp1\os_int.crf --depend ucos_exp1\os_int.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_mem.c)(0x68312F55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_mem.o --omf_browse ucos_exp1\os_mem.crf --depend ucos_exp1\os_mem.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_msg.c)(0x68312F55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_msg.o --omf_browse ucos_exp1\os_msg.crf --depend ucos_exp1\os_msg.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_mutex.c)(0x68312F55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_mutex.o --omf_browse ucos_exp1\os_mutex.crf --depend ucos_exp1\os_mutex.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_pend_multi.c)(0x68312F55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_pend_multi.o --omf_browse ucos_exp1\os_pend_multi.crf --depend ucos_exp1\os_pend_multi.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_prio.c)(0x68312F55)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_prio.o --omf_browse ucos_exp1\os_prio.crf --depend ucos_exp1\os_prio.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_q.c)(0x68312F56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_q.o --omf_browse ucos_exp1\os_q.crf --depend ucos_exp1\os_q.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_sem.c)(0x68312F56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_sem.o --omf_browse ucos_exp1\os_sem.crf --depend ucos_exp1\os_sem.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_stat.c)(0x68312F56)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_stat.o --omf_browse ucos_exp1\os_stat.crf --depend ucos_exp1\os_stat.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_task.c)(0x68312F57)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_task.o --omf_browse ucos_exp1\os_task.crf --depend ucos_exp1\os_task.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_tick.c)(0x68312F57)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_tick.o --omf_browse ucos_exp1\os_tick.crf --depend ucos_exp1\os_tick.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_time.c)(0x68312F5A)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_time.o --omf_browse ucos_exp1\os_time.crf --depend ucos_exp1\os_time.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_tmr.c)(0x68312F66)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_tmr.o --omf_browse ucos_exp1\os_tmr.crf --depend ucos_exp1\os_tmr.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\uCOSIII\uCOS-III\Source\os_var.c)(0x68312F58)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_var.o --omf_browse ucos_exp1\os_var.crf --depend ucos_exp1\os_var.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+F (..\Core\Src\OS\os_app_hooks.c)(0x68312F3F)(--c99 -c --cpu Cortex-M3 -D__MICROLIB -g -O0 --apcs=interwork --split_sections -I ../Core/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Core\Src\OS -I ..\uCOSIII\uC-CPU -I ..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView -I ..\uCOSIII\uC-LIB -I ..\uCOSIII\uC-LIB\Ports -I ..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView -I ..\uCOSIII\uCOS-III\Source-I.\RTE\_ucos_exp1-I"D:\Program Files (x86)\ARM\PACK\ARM\CMSIS\5.0.1\CMSIS\Include"-I"D:\Program Files (x86)\ARM\PACK\Keil\STM32F1xx_DFP\2.4.1\Device\Include"-D__UVISION_VERSION="524" -D_RTE_ -DSTM32F10X_MD -DUSE_HAL_DRIVER -DSTM32F103xB-o ucos_exp1\os_app_hooks.o --omf_browse ucos_exp1\os_app_hooks.crf --depend ucos_exp1\os_app_hooks.d)
+I (..\uCOSIII\uCOS-III\Source\os.h)(0x68312F53)
+I (..\Core\Src\OS\os_cfg.h)(0x68312F40)
+I (..\uCOSIII\uC-CPU\ARM-Cortex-M3\RealView\cpu.h)(0x68312FCC)
+I (..\uCOSIII\uC-CPU\cpu_def.h)(0x68312F3D)
+I (..\Core\Src\OS\cpu_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-CPU\cpu_core.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_def.h)(0x68312F3D)
+I (..\uCOSIII\uC-LIB\lib_mem.h)(0x68312F3E)
+I (..\Core\Src\OS\lib_cfg.h)(0x68312F3F)
+I (..\uCOSIII\uC-LIB\lib_str.h)(0x68312F3E)
+I (..\uCOSIII\uC-LIB\lib_ascii.h)(0x68312F3D)
+I (..\uCOSIII\uCOS-III\Source\os_type.h)(0x68312F57)
+I (..\uCOSIII\uCOS-III\Ports\ARM-Cortex-M3\Generic\RealView\os_cpu.h)(0x68313047)
+I (..\Core\Src\OS\os_app_hooks.h)(0x68312F40)
